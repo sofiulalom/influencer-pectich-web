@@ -9,12 +9,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   margin: 0 50px;
+    margin-left: 25px;
+   
 }
 nav ul{
     display: flex;
     list-style: none;
     align-items: center;
+
 }
 nav ul li{
   margin-left: 10px;
@@ -45,7 +47,7 @@ ul li a{
 .banner-description{
     font-size: 16px;
     font-weight: 400;
-    width: 450px;
+    width: 350px;
     color: rgb(59, 52, 52);
     margin-top: 10px;
 }
@@ -72,4 +74,18 @@ ul li a{
     margin-top:20px;
     margin-left: 10px;
     
+}
+
+@media screen and (max-width:576px) {
+    
+    nav ul,
+    nav{
+        flex-direction: column;
+    }
+    .banner-container{
+      flex-direction: column-reverse
+    }
+    nav ul li {
+        margin-bottom: 10px;
+    }
 }

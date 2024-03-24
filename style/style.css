@@ -178,7 +178,50 @@ span{
   color: rgb(75, 68, 68);
   
 }
-    
+.see-more{
+   text-align: end;
+   font-size: 24pxpx;
+   font-weight: 600;
+   color:#E02C6D;
+   margin-top: 50px;
+}
+
+  /* 
+  feature section style 
+                     */
+.feature-section{
+    width: 900px;
+    margin: auto;
+    margin-top: 100px;
+}
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.feature-image img{
+    width: 100%;
+}
+.feature-info{
+    width: 400px;
+}
+.feature-title{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 5px;
+
+}
+.feature-description{
+    width: 350px;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+#join-btn{
+    border-radius: 0;
+}
+
 
 
 
@@ -219,7 +262,45 @@ media queris style
     .popular-cards-container{
         grid-template-columns: auto;
     }
+    .feature-section{
+        width: 250px;
+        margin: auto;
+       margin-top: 50px;
+    }
+    .feature-container{
+        flex-direction: column-reverse;
+    }
+    .feature-image {
+        width: 250px;
+    }
+    .feature-info{
+    width: 220px;
+    text-align: center;
+    }
+    .feature-description{
+        width: 200px;
+    }
    
+}
+
+/* footer style */
+footer{
+  background-color: rgb(13, 13, 14);
+  margin-top: 100px;
+}
+.footer-info{
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+.fa-brands{
+    margin-right: 5px;
+    font-size: 30px;
+}
+.social{
+    margin-right: 5px;
+     font-size: 30px;
+     
 }
 
 /* ----------------
